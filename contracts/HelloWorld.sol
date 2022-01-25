@@ -9,6 +9,7 @@ contract helloWorld{
   event updateMessage(string oldStr,string newStr);
 
   string public message;
+  
   constructor(string memory initMsg){
     message = initMsg;
   }
